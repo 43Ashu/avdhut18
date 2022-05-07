@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+    </line>
+    <line>
+      <![CDATA[OrangeHRM]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-07T13:16:01 IST" name="Suite" finished-at="2022-05-07T13:16:16 IST" duration-ms="15132">
+    <groups>
+    </groups>
+    <test started-at="2022-05-07T13:16:01 IST" name="Test" finished-at="2022-05-07T13:16:16 IST" duration-ms="15132">
+      <class name="testjava.DashBoardTest">
+        <test-method is-config="true" signature="WebBrowserLaunching()[pri:0, instance:testjava.DashBoardTest@51e69659]" started-at="2022-05-07T13:16:01 IST" name="WebBrowserLaunching" finished-at="2022-05-07T13:16:09 IST" duration-ms="8245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebBrowserLaunching -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:testjava.DashBoardTest@51e69659]" started-at="2022-05-07T13:16:09 IST" name="pageObjects" finished-at="2022-05-07T13:16:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="verifyBellIConIsDisplayed()[pri:5, instance:testjava.DashBoardTest@51e69659]" started-at="2022-05-07T13:16:09 IST" name="verifyBellIConIsDisplayed" finished-at="2022-05-07T13:16:14 IST" duration-ms="5322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBellIConIsDisplayed -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:testjava.DashBoardTest@51e69659]" started-at="2022-05-07T13:16:14 IST" name="tearDownBrowser" finished-at="2022-05-07T13:16:15 IST" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+      </class> <!-- testjava.DashBoardTest -->
+      <class name="testjava.LoginPageTest">
+        <test-method is-config="true" signature="WebBrowserLaunching()[pri:0, instance:testjava.LoginPageTest@12aba8be]" started-at="2022-05-07T13:16:01 IST" name="WebBrowserLaunching" finished-at="2022-05-07T13:16:08 IST" duration-ms="6712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebBrowserLaunching -->
+        <test-method is-config="true" signature="pageObjects()[pri:0, instance:testjava.LoginPageTest@12aba8be]" started-at="2022-05-07T13:16:08 IST" name="pageObjects" finished-at="2022-05-07T13:16:08 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjects -->
+        <test-method signature="verifyUrlOfLoginPage()[pri:0, instance:testjava.LoginPageTest@12aba8be]" started-at="2022-05-07T13:16:08 IST" name="verifyUrlOfLoginPage" finished-at="2022-05-07T13:16:08 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUrlOfLoginPage -->
+        <test-method signature="verifyTitleOfLoginPage()[pri:1, instance:testjava.LoginPageTest@12aba8be]" started-at="2022-05-07T13:16:08 IST" name="verifyTitleOfLoginPage" finished-at="2022-05-07T13:16:08 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[OrangeHRM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfLoginPage -->
+        <test-method signature="verifyLoginPageWithCorrectCredentials()[pri:2, instance:testjava.LoginPageTest@12aba8be]" started-at="2022-05-07T13:16:08 IST" name="verifyLoginPageWithCorrectCredentials" finished-at="2022-05-07T13:16:14 IST" duration-ms="5773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageWithCorrectCredentials -->
+        <test-method signature="verifyLoginPageWithIncorrectCredentials()[pri:3, instance:testjava.LoginPageTest@12aba8be]" started-at="2022-05-07T13:16:14 IST" name="verifyLoginPageWithIncorrectCredentials" finished-at="2022-05-07T13:16:15 IST" duration-ms="1622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageWithIncorrectCredentials -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:testjava.LoginPageTest@12aba8be]" started-at="2022-05-07T13:16:15 IST" name="tearDownBrowser" finished-at="2022-05-07T13:16:16 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+      </class> <!-- testjava.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
